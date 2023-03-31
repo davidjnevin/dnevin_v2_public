@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://davidnevin.net/sitemap.xml
+Host: https://davidnevin.net
