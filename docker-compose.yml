@@ -1,0 +1,16 @@
+version: "3.9"
+
+services:
+  portfolio_v2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio_v2
+    networks:
+      - nginx_default
+    ports:
+      - "8080:80"
+
+networks:
+  nginx_default:
+    external: true
